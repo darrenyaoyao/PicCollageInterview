@@ -26,22 +26,23 @@ Builds the app for production to the `build` folder.<br />
 
 There are two components: App and Block.<br />
 
-App: Manage all data and render all blocks.<br />
-Block: Represent the ui of mine block.<br />
+### App: Manage all data and render all blocks.
+
+### Block: Represent the ui of mine block.
 
 ### `Data Design`
 
 I store all data in two array: minesMap and clickedMap.<br />
 If the row number is N, the size of minesMap and clickedMap are N\*N.<br />
 
-#### minesMap: each index store the content of mine blocks
+### minesMap: each index store the content of mine blocks
 
 '' => no mines in adjacent blocks <br />
 '1' => 1 mines in adjacent blocks <br />
 '2' => 2 mines in adjacent blocks <br />
 'X' => there is a mine in the block <br />
 
-#### clickedMaps: each index store the block is clicked or not
+### clickedMaps: each index store the block is clicked or not
 
 0 => have not been clicked
 1 => have been clicked
@@ -50,6 +51,6 @@ If the row number is N, the size of minesMap and clickedMap are N\*N.<br />
 
 There are two functions to make the app work. <br />
 
-#### generateMinesMap: randomly generate minesMap
+### generateMinesMap: randomly generate minesMap
 
-#### renewClickedMap: given the clicked index and update the clickedMap by rules.
+### renewClickedMap: given the clicked index and update the clickedMap by rules.
