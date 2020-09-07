@@ -54,3 +54,7 @@ There are two functions to make the app work. <br />
 ### generateMinesMap: randomly generate minesMap
 
 ### renewClickedMap: given the clicked index and update the clickedMap by rules.
+
+If there is no mine in the clicked index, the function will click 8 adjacent blocks.
+
+There are some unit tests for these two functions.
