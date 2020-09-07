@@ -35,6 +35,8 @@ There are two components: App and Block.<br />
 I store all data in two array: minesMap and clickedMap.<br />
 If the row number is N, the size of minesMap and clickedMap are N\*N.<br />
 
+![data design](https://user-images.githubusercontent.com/16465582/92358865-c71a7680-f11c-11ea-8278-4991318d3d12.jpeg)
+
 ### minesMap: each index store the content of mine blocks
 
 '' => no mines in adjacent blocks <br />
