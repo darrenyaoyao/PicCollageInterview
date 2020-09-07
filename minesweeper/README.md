@@ -26,6 +26,8 @@ Builds the app for production to the `build` folder.<br />
 
 There are two components: App and Block.<br />
 
+![component design](https://user-images.githubusercontent.com/16465582/92359624-2927ab80-f11e-11ea-8ac8-39cc2c2c4b05.jpeg)
+
 ### App: Manage all data and render all blocks.
 
 ### Block: Represent the ui of mine block.
@@ -52,6 +54,8 @@ If the row number is N, the size of minesMap and clickedMap are N\*N.<br />
 ### `Function Design`
 
 There are two functions to make the app work. <br />
+
+![function design](https://user-images.githubusercontent.com/16465582/92359635-2d53c900-f11e-11ea-9cce-0d9db5c8136f.jpeg)
 
 ### generateMinesMap: randomly generate minesMap
 
