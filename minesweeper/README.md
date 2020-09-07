@@ -64,3 +64,7 @@ There are two functions to make the app work. <br />
 If there is no mine in the clicked index, the function will click 8 adjacent blocks.
 
 There are some unit tests for these two functions.
+
+### `Add a twist`
+
+Set a time limitation and increase mine number when time decrease.
